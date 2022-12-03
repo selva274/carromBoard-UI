@@ -1,0 +1,264 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        background: pink;
+    }
+    
+    body {
+        height: 800px;
+        width: 800px;
+        background: white;
+        margin: 50px auto;
+        margin-top: 80px;
+        border-radius: 50px;
+        background: wheat;
+        position: relative;
+        box-shadow: 30px 30px 120px gray;
+    }
+    
+    .topElement {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        background: wheat;
+        border-radius: 50px;
+        position: relative;
+    }
+    
+    .topElement .circle {
+        height: 100px;
+        width: 100px;
+        background: rgb(95, 70, 70);
+        border-radius: 50px;
+        position: absolute;
+        box-shadow: 3px 3px 10px rgb(95, 70, 70);
+    }
+    
+    .topElement .topbar {
+        width: 70%;
+        height: 70px;
+        background: wheat;
+        border: solid 5px black;
+        position: absolute;
+        left: 120px;
+        top: 20px;
+        border-radius: 50px;
+        position: relative;
+    }
+    
+    .r {
+        position: absolute;
+        right: 0;
+    }
+    
+    .l {
+        position: absolute;
+        left: 0;
+    }
+    
+    .br {
+        position: absolute;
+        right: 1px;
+        top: 9px;
+        bottom: 0px;
+    }
+    
+    .bl {
+        position: absolute;
+        left: 5px;
+        top: 9;
+        bottom: 0px;
+    }
+    
+    .bottomElement .bb {
+        position: absolute;
+        left: 118px;
+        top: 20px;
+    }
+    
+    .bottomElement {
+        top: px;
+        position: absolute;
+    }
+    
+    .boardB {
+        height: 580px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .boardB .left {
+        width: 70px;
+        height: 95%;
+        position: absolute;
+        background: wheat;
+        border-radius: 50px;
+        border: solid 5px black;
+        top: 20px;
+        left: 20px;
+    }
+    
+    .boardB .right {
+        width: 70px;
+        height: 95%;
+        position: absolute;
+        background: wheat;
+        border-radius: 50px;
+        top: 20px;
+        right: 0;
+        right: 20px;
+        border: solid 5px black;
+    }
+    
+    .boardB .mainB {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        left: 195px;
+        top: 98px;
+        border-radius: 250px;
+        border: solid 2px black;
+    }
+    
+    .boardB .mainB .coin {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        background: blue;
+        position: absolute;
+        left: 160px;
+        top: 160px;
+        box-shadow: 1px 1px 20px blue;
+    }
+    
+    .topElement .topbar .leftcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+    }
+    
+    .topElement .topbar .rightcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+        position: absolute;
+        right: 0.2px;
+        top: 0;
+    }
+    
+    .boardB .left .topcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+    }
+    
+    .boardB .left .bottomcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+        position: absolute;
+        right: 0.2px;
+        top: 483px;
+    }
+    
+    .boardB .right .topcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+    }
+    
+    .boardB .right .bottomcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+        position: absolute;
+        right: 0.2px;
+        top: 483px;
+    }
+    
+    .bottomElement .bb .leftcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+    }
+    
+    .bottomElement .bb .leftcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+    }
+    
+    .bottomElement .bb .rightcircle {
+        height: 60px;
+        width: 60px;
+        background: red;
+        border-radius: 150px;
+        border: solid 2px black;
+        position: absolute;
+        right: 0.2px;
+        top: 0;
+    }
+    
+    .boardB .mainB .my {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        background: brown;
+        position: absolute;
+        left: 260px;
+        top: 60px;
+        box-shadow: 1px 1px 20px brown;
+    }
+    
+    .boardB .mainB .my1 {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        background: brown;
+        position: absolute;
+        left: 260px;
+        top: 260px;
+        box-shadow: 1px 1px 20px brown;
+    }
+    
+    .boardB .mainB .my2 {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        background: brown;
+        position: absolute;
+        left: 50px;
+        top: 30px;
+        box-shadow: 1px 1px 20px brown;
+    }
+    
+    .boardB .mainB .my3 {
+        height: 75px;
+        width: 75px;
+        border-radius: 150px;
+        background: brown;
+        position: absolute;
+        left: 50px;
+        top: 330px;
+        box-shadow: 1px 1px 20px brown;
+    }
